@@ -41,7 +41,7 @@ async def start(client, message):
             InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/mkn_bots_updates")
+            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/CC_BotUp")
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
@@ -81,7 +81,15 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text=FORCE_SUB_TEXT,
+            text="""**♦️ READ THIS INSTRUCTION ♦️
+            
+🗣 നിങ്ങൾ ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ ഞങ്ങളുടെ ചാനലിലേക്ക് റിക്വസ്റ്റ് ചെയ്തിരിക്കണം. റിക്വസ്റ്റ് ചെയ്യാൻ " 📢 Join Channel 📢 "എന്ന ബട്ടണിലോ താഴെ കാണുന്ന ലിങ്കിലോ ക്ലിക്ക് ചെയ്യാവുന്നതാണ്. ജോയിൻ ചെയ്ത ശേഷം " 🔄 Try Again 🔄 " എന്ന ബട്ടണിൽ അമർത്തിയാൽ നിങ്ങൾക്ക് ഞാൻ ആ സിനിമ അയച്ചു തരുന്നതാണ്..😍
+
+
+🗣 In Order To Get The Movie Requested By You in Our Group, You Must Have To join Our Official Channel First By Clicking " 📢 Join Channel 📢 " Button or the Link shown Below. After That, Click " 🔄 Try Again 🔄 " Button. I'll Send You That Movie 🙈
+
+
+👇 CLICK "JOIN CHANNEL" THEN CLICK "TRY AGAIN" 👇**""",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.DEFAULT
             )
@@ -91,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/mkn_bots_updates")
+            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/CC_BotUp")
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
