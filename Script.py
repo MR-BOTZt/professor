@@ -6,7 +6,7 @@ class script(object):
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : VPS
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : 𝚅𝚙𝚜
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 𝚟3.0.0"""
 
     SOURCE_TXT = """<b>NOTE:</b>
@@ -14,7 +14,7 @@ class script(object):
 
 <b>DEVS:</b>
 - 𝙳𝚎𝚟 1<a href=https://t.me/UnKn0wN_DeViL>ㅤ𝘌𝘷𝘪𝘭 𝘔𝘰𝘯𝘬</a>
-- 𝙳𝚎𝚟 2<a href=https://t.me/CC_BotUp>𝙰𝙰𝙳𝙷𝙸</a>"""
+- 𝙳𝚎𝚟 2<a href=https://t.me/TonyStark_Updates>𝙏𝙊𝙉𝙔 𝙎𝙏𝘼𝙍𝙆 ᵇᵒᵗ</a>"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
@@ -30,7 +30,7 @@ class script(object):
 
 <code>/batch https://t.me/CC_BotUp https://t.me/CC_BotUp</code>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/CC_BotUp><b>𝙱𝙾𝚃𝚉</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/TonyStark_Updates><b>𝙏𝙊𝙉𝙔 𝙎𝙏𝘼𝙍𝙆 ᵇᵒᵗ</b></a>"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
